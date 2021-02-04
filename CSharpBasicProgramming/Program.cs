@@ -33,10 +33,27 @@ namespace CSharpBasicProgramming
             Palindrome palindrome = new Palindrome();
             palindrome.palindrome(v);*/
 
-            Console.WriteLine("Enter a number to find how many times it occur in range 50 : ");
+            /*Console.WriteLine("Enter a number to find how many times it occur in range 50 : ");
             int m = Convert.ToInt32(Console.ReadLine());
             CountDigit countDigit = new CountDigit();
-            countDigit.countDigit(m);
+            countDigit.countDigit(m);*/
+
+            /*FactorialLoop factorialLoop = new FactorialLoop();
+            Console.WriteLine("Enter a value to print it's Factorial : ");
+            int z = Convert.ToInt32(Console.ReadLine());
+            factorialLoop.factorialLoop(z);*/
+
+            /*Console.WriteLine("Enter a value to print it's Factorial using recursion :");
+            int f = Convert.ToInt32(Console.ReadLine());
+            FactorialRecursion factorialRecursion = new FactorialRecursion();
+            int res = factorialRecursion.factorialRecursion(f);
+            Console.WriteLine("Factorial : " + res);*/
+
+            Console.WriteLine("Enter a number to print it's fibonacci ");
+            int x = Convert.ToInt32(Console.ReadLine());
+            FibonacciUsingArray fibonacciUsingArray = new FibonacciUsingArray();
+            fibonacciUsingArray.fibonacciUsingArray(x);
+
         }
     }
 }
